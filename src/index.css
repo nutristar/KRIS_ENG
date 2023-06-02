@@ -11,3 +11,21 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* index.css */
+
+/* Добавляем стили для незаметной ссылки */
+.invisible-link {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  font-size: 12px;
+  opacity: 0.5;
+  color: white;
+  text-decoration: none;
+}
+
+.invisible-link:hover {
+  opacity: 1;
+}
+
